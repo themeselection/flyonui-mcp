@@ -1,10 +1,10 @@
 {
-  "name": "flyonui-mcp-test",
+  "name": "flyonui-mcp",
   "type": "module",
-  "version": "1.2.5",
+  "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "flyonui-mcp-test": "build/index.js"
+    "flyonui-mcp": "build/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,10 +13,16 @@
   "files": [
     "build"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "flyonui",
+    "mcp",
+    "model-context-protocol",
+    "cli"
+  ],
+  "homepage": "https://flyonui.com",
+  "author": "themeselection",
+  "license": "MIT",
+  "description": "FlyonUI MCP",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.0",
     "zod": "^3.25.67"
