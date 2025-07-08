@@ -16,7 +16,6 @@ server.registerTool(
     {
         title: "Get Instructions for FlyonUI.",
         description: "Get instructions for creating FlyonUI blocks using existing blocks. This tool provides instructions for creating new FlyonUI blocks using existing blocks. Use this tool when the user requests to generate a new component. mentions /create-flyonui or /cui. Strictly follow the steps one by one to ensure successful code generation.Retrieves Instructions for IDE agent to follow for creating/generating/updating FlyonUI blocks.",
-        inputSchema: {},
     },
     async () => {
         try {
@@ -49,7 +48,6 @@ server.registerTool(
     {
         title: "Get Instructions for generating FlyonUI blocks using the existing FlyonUI blocks as an inspiration.",
         description: "Get instructions for working with FlyonUI blocks. This tool provides instructions for creating new FlyonUI blocks by taking the inspiration from existing FlyonUI blocks. Use this tool when the user requests to generate a new component by inspirations. mentions /inspire-flyonui or /iui.",
-        inputSchema: {},
     },
     async () => {
         try {
@@ -82,7 +80,6 @@ server.registerTool(
     {
         title: "Get Instructions for refining flyonui blocks/code/component or page.",
         description: "Get instructions for refining FlyonUI blocks. This tool provides instructions for refining existing FlyonUI blocks. Use this tool when the user requests to refine an existing component. mentions /refine-flyonui or /rui.",
-        inputSchema: {},
     },
     async () => {
         try {
@@ -115,7 +112,6 @@ server.registerTool(
     {
         title: "Get Block Metadata",
         description: "Fetch the metadata of a block from a given URL. Use this tool to retrieve the block metadata. This will provide the metadata of all the FlyonUI blocks available for use.",
-        inputSchema: {},
     },
     async () => {
         try {
