@@ -1,7 +1,7 @@
 {
   "name": "flyonui-mcp",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "bin": {
     "flyonui-mcp": "build/index.js"
