@@ -3,7 +3,7 @@ import { config } from "./config.js";
 const API_KEY =
     config.apiKey || process.env.API_KEY;
 
-export const BASE_URL = "https://platform-flyonui-nextjs.vercel.app/api/mcp";
+export const BASE_URL = "https://flyonui.com/api/mcp";
 
 type HttpMethod = "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
 
