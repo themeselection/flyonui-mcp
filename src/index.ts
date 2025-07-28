@@ -150,7 +150,6 @@ server.registerTool(
         try {
 
             const url = endpoint + "?type=mcp";
-            console.log("Fetching block meta content from:", url);
             const response = await apiClient.get(url);
 
             if (response.status !== 200) {
