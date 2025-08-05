@@ -2,6 +2,10 @@
 
 Build modern, production-ready UI blocks, components, and landing pages in minutes. Seamlessly integrates with your favorite IDE and supports the most popular frameworks like React, Next.js, Nuxt, Vue, Svelte, and more.
 
+<a href="https://glama.ai/mcp/servers/@themeselection/flyonui-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@themeselection/flyonui-mcp/badge" alt="FlyonUI Server MCP server" />
+</a>
+
 ## 🚀 What is FlyonUI MCP Server?
 
 FlyonUI MCP Server is an [Tailwind AI](https://flyonui.com/mcp) builder that helps you create, inspire, and refactor stunning, production-ready blocks, UI components and full pages using FlyonUI blocks. It easily integrates directly into your favorite IDE for a fast & efficient workflow. 
